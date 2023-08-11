@@ -1,0 +1,8 @@
+C:\Users\iheb hzami\source\repos\Devops\shopping\Shopping.Client\obj\Debug\net5.0\Shopping.Client.csproj.AssemblyReference.cache
+C:\Users\iheb hzami\source\repos\Devops\shopping\Shopping.Client\obj\Debug\net5.0\Shopping.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iheb hzami\source\repos\Devops\shopping\Shopping.Client\obj\Debug\net5.0\Shopping.Client.AssemblyInfoInputs.cache
+C:\Users\iheb hzami\source\repos\Devops\shopping\Shopping.Client\obj\Debug\net5.0\Shopping.Client.AssemblyInfo.cs
+C:\Users\iheb hzami\source\repos\Devops\shopping\Shopping.Client\obj\Debug\net5.0\Shopping.Client.csproj.CoreCompileInputs.cache
+C:\Users\iheb hzami\source\repos\Devops\shopping\Shopping.Client\obj\Debug\net5.0\Shopping.Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\iheb hzami\source\repos\Devops\shopping\Shopping.Client\obj\Debug\net5.0\Shopping.Client.RazorAssemblyInfo.cache
+C:\Users\iheb hzami\source\repos\Devops\shopping\Shopping.Client\obj\Debug\net5.0\Shopping.Client.RazorAssemblyInfo.cs
