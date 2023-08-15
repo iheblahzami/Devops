@@ -5,7 +5,17 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Client", "Shopping.Client\Shopping.Client.csproj", "{D66D1263-48D4-4812-AE76-20AD8E08BCF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.API", "shopping.API\Shopping.API.csproj", "{C904B21E-DB9B-47F1-912B-5622AAB9C049}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.API", "shopping.API\Shopping.API.csproj", "{C904B21E-DB9B-47F1-912B-5622AAB9C049}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4F44B5B7-B333-4548-ADB2-3D9AFF435610}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aks", "aks", "{731CFA63-AE99-4416-AF7F-56ABB847D28A}"
+	ProjectSection(SolutionItems) = preProject
+		shoppingapi-configmap.yaml = shoppingapi-configmap.yaml
+		shoppingapi.yaml = shoppingapi.yaml
+		shoppingautoscale.yaml = shoppingautoscale.yaml
+		shoppingclient.yaml = shoppingclient.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,10 @@ Global
 		{C904B21E-DB9B-47F1-912B-5622AAB9C049}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C904B21E-DB9B-47F1-912B-5622AAB9C049}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C904B21E-DB9B-47F1-912B-5622AAB9C049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F44B5B7-B333-4548-ADB2-3D9AFF435610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F44B5B7-B333-4548-ADB2-3D9AFF435610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F44B5B7-B333-4548-ADB2-3D9AFF435610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F44B5B7-B333-4548-ADB2-3D9AFF435610}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
