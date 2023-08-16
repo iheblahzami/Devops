@@ -38,11 +38,9 @@ stages:
         repository: $(imageRepository)
         dockerfile: $(dockerfilePath)
         containerRegistry: $(dockerRegistryServiceConnection)
+        buildContext: $(Build.SourcesDirectory)/shopping
         tags: |
           $(tag)
-    - script: echo Build Source Directory: $(Build.SourcesDirectory)
-    - script: echo Build Context: $(Build.SourcesDirectory)/shopping
-    
     - upload: manifests
       artifact: manifests
 
