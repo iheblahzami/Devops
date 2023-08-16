@@ -62,6 +62,14 @@ namespace Shopping.Client.Data
                     ImageFile = "png",
                     Price = 500.00M,
                     Category = "outdoor"
+                },
+                 new Product()
+                {
+                    Name = "iphone 12 pro max ",
+                    Description = " new gen .",
+                    ImageFile = "png",
+                    Price = 90.00M,
+                    Category = "outdoor"
                 }
 
         };
