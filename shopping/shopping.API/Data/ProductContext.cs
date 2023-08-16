@@ -63,8 +63,8 @@ namespace Shopping.API.Data
                 new Product()
                 {
                     Name = "galaxy a12",
-                    Description = "This phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
-                    ImageFile = "product-6.png",
+                    Description = " new gen .",
+                    ImageFile = "png",
                     Price = 500.00M,
                     Category = "outdoor"
                 }
