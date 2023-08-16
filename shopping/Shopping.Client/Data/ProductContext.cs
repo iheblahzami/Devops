@@ -54,6 +54,14 @@ namespace Shopping.Client.Data
                     ImageFile = "product-6.png",
                     Price = 240.00M,
                     Category = "Home Kitchen"
+                },
+                 new Product()
+                {
+                    Name = "galaxy a12",
+                    Description = " new gen .",
+                    ImageFile = "png",
+                    Price = 500.00M,
+                    Category = "outdoor"
                 }
 
         };
